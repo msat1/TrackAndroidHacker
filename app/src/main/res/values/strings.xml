@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Track Android Hacker</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="wifi"><font size="15"><b>WiFi Connection(s) >></b></font></string>
+	<string name="bluetooth"><font size="15"><b>Bluetooth Connection(s) >></b></font></string>
+	<string name="email"><font size="15"><b>E-Mail ID(s) >></b></font></string>
+	<string name="network"><font size="15"><b>Network Provider(s) >></b></font></string>
+	<string-array name="items">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+        <item>Item 5</item>
+        <item>Item 6</item>
+    </string-array>
+ 
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+</resources>

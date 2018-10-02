@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        AppzDevelopers {
+            keyAlias 'appz'
+            keyPassword 'android'
+            storeFile file('C:/Anuj/Personal/Appz Developers_keystore')
+            storePassword 'android'
+        }
+    }
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "com.appzdevelopers.trackandhackerf"
+        minSdkVersion 19
+        targetSdkVersion 23
+        multiDexEnabled true
+        versionCode 8
+        versionName "2.8"
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:26.1.0'
+    compile 'com.android.support:animated-vector-drawable:26.1.0'
+    //compile 'com.google.android.gms:play-services:15.0.1'
+    compile 'com.google.android.gms:play-services-ads-base:15.0.1'
+    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile files('libs/gama_wheel_v1.0.jar')
+    //compile files('libs/GoogleAdMobAdsSdk-6.4.1.jar')
+    implementation 'com.google.android.gms:play-services-ads-lite:15.0.1'
+}

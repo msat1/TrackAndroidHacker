@@ -1,0 +1,4 @@
+#Mon Jun 18 22:28:18 IST 2018
+base.0=C\:\\Medtronic\\ConsoleUI_Polarion_Repo\\Archive\\TrackAndroidHackerFree\\app\\build\\intermediates\\transforms\\dex\\release\\0
+renamed.0=classes.dex
+file.0=C\:\\Medtronic\\ConsoleUI_Polarion_Repo\\Archive\\TrackAndroidHackerFree\\app\\build\\intermediates\\transforms\\dex\\release\\0\\classes.dex
